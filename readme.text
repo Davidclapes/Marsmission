@@ -11,6 +11,7 @@ Segueix aquests passos per executar el projecte al teu entorn local:
   
 
 2. **Clonar el repositori**  
+    Crear una carpeta dintre de Laragon->www i guardar en ella el projecte
   
 3. **Obrir Laragon i accedir al projecte**
     Obre Laragon i prem el botó Iniciar, a continuació obre el terminal. En la linea de comandes accedir a cd Marsmission o el nom de la carpeta que que contingui el projecte
