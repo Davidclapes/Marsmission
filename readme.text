@@ -21,5 +21,8 @@ Segueix aquests passos per executar el projecte al teu entorn local:
 5. **  instalar Composer 
    Instal·la Composer amb la comanda: composer install
 
-6. ** Accedir a la pàgina **
-      En la consola de Laragon seleccionar Menú->www->marsmission o accedir a la pàgina http://marsmission.test/
+6. ** Generar una key **
+    En la linea de comandes escriure: php artisan key:generate
+
+7. ** Accedir a la pàgina **
+    En la consola de Laragon seleccionar Menú->www->marsmission o accedir a la pàgina http://marsmission.test/
