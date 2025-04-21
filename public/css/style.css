@@ -1,0 +1,148 @@
+.Header{
+	width:40px;
+	text-align: left !important; 
+	border:0px !important;
+	margin-bottom:100px;
+}
+body{
+	color: #11aefa;
+    background-color: #001c45;
+}
+h2{
+	text-align: center;
+}
+.imatge{
+	border-radius: 8px;
+}           
+.sidebar{
+    position: fixed;
+    width:200px;
+    top:0px;
+    right:0px;
+    display: block;
+    overflow-x: hidden;
+    overflow-y: auto
+}
+.container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin-top:30px;
+	width:100%;
+	max-width: 1200px;
+	background-color: #ebf8ff;
+	padding:20px 0px;
+	border-radius: 8px;
+}
+.containergrid{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px;
+    background-color: #ebf8ff;
+    padding: 20px 0px;
+    border-radius: 8px;
+    margin: 30px auto;
+}
+.containerform{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%; 
+    max-width: 1200px;
+    background-color: #ebf8ff;
+    padding: 20px 0px;
+    border-radius: 8px;
+    margin: 30px auto;
+}
+.buttoninici{
+	padding: 20px;
+	background-color: #11aefa;
+	color: white;
+	border-radius: 8px;
+	margin-left:15%;
+}
+.buttonformulari{
+	padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.introduccio{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	width:100%;
+}
+table,td,tr{
+	width:50%;
+	margin-right: 15%;
+	margin-left:25%;
+	overflow-x: auto;
+}
+.inputmov{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	margin-left:35%;
+}
+.buttonmov{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	margin-left:42%;
+}
+
+.grid {
+    display: grid;
+    margin-top: 40px;
+    gap: 0px;
+    grid-auto-flow: row;
+}
+.cell {
+    width: 7px;
+    height: 7px;
+    background-color: #ffede6;
+    border: 1px solid #ffc8b3;
+}
+.selected {
+    background-color: #b3cce6; /* Color de les caselles on s'ha desplaçat */
+}
+.obstacle {
+    background-color: #ffa480; /* Color de la casella amb obstacle */
+}
+.primera{
+	background-color: #538cc6; /* Color de la casella inicial */
+}
+.actual{
+	background-color:#339966; /* Color de la casella inicial */
+}
+.quadrat {
+    height: 10px;
+    width: 10px;
+}
+.contenidorllegenda{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    gap: 20px; 
+    width: 80%;
+    margin: 0px 30%; 
+}
+.item-llegenda {
+    display: flex;
+    align-items: center; 
+    gap: 10px; 
+    flex: 1; 
+    width: 25%;
+    max-width: 25%;
+}

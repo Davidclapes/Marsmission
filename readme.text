@@ -1,0 +1,24 @@
+# Projecte MarsRoverMission amb Laravel
+
+Aquest projecte s'ha desenvolupat utilitzant Laravel i essent executat en un entorn de desenvolupament local Laragon.
+
+## 🚀 Instalació
+
+Segueix aquests passos per executar el projecte al teu entorn local:
+
+1. **Instal·lar Laragon **  
+   Descarrega i instal·la [Laragon](https://laragon.org/) al teu ordinador.
+  
+
+2. **Clonar el repositori**  
+  
+3. ** Accedir al projecte**
+   cd Marsrovermission
+
+4. ** Obrir Laragon instalar Composer 
+   Obre Laragon i prem el botó Iniciar, a continuació obre el terminal i instal·la Composer amb la comanda: composer install
+
+5. ** Accedir a la pàgina **
+   Tens 2 opcions:
+      1.- En el terminal executar la comanda php artisan serve i accedir a la pàgina: http://127.0.0.1:8000
+      2.- En la consola de Laragon seleccionar Menú->www->marsrovermission o accedir a la pàgina http://marsrovermission.test/
